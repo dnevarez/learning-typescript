@@ -11,6 +11,7 @@ var user = "Jane User";
 document.body.innerHTML = greeter(user);
 
 // Interfaces
+// Used to type-check whether an object fits a certain structure. Used to name a specific combination of variables to ensure they will always go together.
 
 interface Person {
   firstName: string;
